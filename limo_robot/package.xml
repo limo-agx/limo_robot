@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>limo_robot</name>
+  <version>0.0.0</version>
+  <description>The limo_robot package</description>
+
+  <maintainer email="agiley@todo.todo">agiley</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>limo_base</exec_depend>
+  <exec_depend>limo_bringup</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>
