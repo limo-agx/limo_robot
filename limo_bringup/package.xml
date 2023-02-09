@@ -8,5 +8,9 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>ydlidar_ros</exec_depend>
+  <exec_depend>astra_camera</exec_depend>
+  <exec_depend>tf</exec_depend>
+
   <test_depend>roslaunch</test_depend>
 </package>
