@@ -15,4 +15,6 @@
         <param name="use_mcnamu" value="$(arg use_mcnamu)" />
         <param name="pub_odom_tf" value="$(arg pub_odom_tf)" />
     </node>
+
+    <node name="joint_state_publisher" type="joint_state_publisher" pkg="joint_state_publisher" />
 </launch>
