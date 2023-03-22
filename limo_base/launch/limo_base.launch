@@ -16,5 +16,8 @@
         <param name="pub_odom_tf" value="$(arg pub_odom_tf)" />
     </node>
 
+    <param name="robot_description" command="$(find xacro)/xacro '$(find limo_description)/urdf/limo_four_diff.xacro'" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
     <node name="joint_state_publisher" type="joint_state_publisher" pkg="joint_state_publisher" />
 </launch>
